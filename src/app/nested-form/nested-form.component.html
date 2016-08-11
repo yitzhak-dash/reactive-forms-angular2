@@ -1,0 +1,8 @@
+<form [formGroup]="nestedGroup">
+  <label for="time">time</label>
+  <input id="time" type="text" formControlName="time">
+  <small [hidden]="nestedGroup.controls.time.valid">
+    The time is required
+    {{nestedGroup.controls.time.error}}
+  </small>
+</form>

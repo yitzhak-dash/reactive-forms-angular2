@@ -36,6 +36,8 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/model-driven-component',
+  'app/nested-form',
   /** @cli-barrel */
 ];
 
